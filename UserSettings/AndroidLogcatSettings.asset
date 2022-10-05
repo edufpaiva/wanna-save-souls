@@ -1,13 +1,32 @@
 {
     "m_SelectedDeviceId": "RQCT201F6TH",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "RQCT201F6TH",
+        "name": "com.DefaultCompany.com.unity.template.mobile2D",
+        "processId": 11258,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [],
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "RQCT201F6TH",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 25215,
+            "exited": false
+        },
+        {
+            "deviceId": "RQCT201F6TH",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 2384,
+            "exited": false
+        },
+        {
+            "deviceId": "RQCT201F6TH",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 11258,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
