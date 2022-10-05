@@ -140,11 +140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1881226493574432753, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.74
+      value: -4.58
       objectReference: {fileID: 0}
     - target: {fileID: 1881226493574432753, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.51
+      value: -3.49
       objectReference: {fileID: 0}
     - target: {fileID: 1881226493574432753, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4613390350995481593, guid: 589ee04ea9d95e74dbcd75b774c35e24, type: 3}
+      propertyPath: fase
+      value: 1.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 589ee04ea9d95e74dbcd75b774c35e24, type: 3}
 --- !u!1 &586847999
@@ -277,7 +281,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.12941177, g: 0.121568635, b: 0.18823531, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
