@@ -53,10 +53,6 @@ public class Movement : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) {
             Jump();
-
-            jumpForce = initialJumpForce;
-            moveSpeed = initialMoveSpeed;
-
         }
         IsGrounded();
     }
@@ -64,14 +60,17 @@ public class Movement : MonoBehaviour
 
 
 
-    private void Jump() {
+    public void Jump() {
 
         if(!jumped) {
             playerRB.velocity = Vector2.up * jumpForce;
             jumped = true;
 
         }
-        
+
+        jumpForce = initialJumpForce;
+        moveSpeed = initialMoveSpeed;
+
     }
 
 
@@ -91,6 +90,7 @@ public class Movement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.name.Contains("death")) {
             Destroy(gameObject);
+            GameManager.Instance.LoadScene("intro");
         }
     }
 
