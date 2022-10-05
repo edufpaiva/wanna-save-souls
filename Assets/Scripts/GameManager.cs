@@ -52,6 +52,11 @@ public class GameManager : MonoBehaviour
 
 
     public void LoadScene(string name) {
+        if(name == "intro") {
+            moedas = new List<int>();
+            moedas.Add(0);
+        }
+
         SceneManager.LoadScene(name);
     }
 
