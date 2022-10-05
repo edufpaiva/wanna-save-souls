@@ -254,7 +254,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1881226493574432524, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_Name
-      value: moeda 1
+      value: moeda_11
       objectReference: {fileID: 0}
     - target: {fileID: 1881226493574432753, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_RootOrder
@@ -529,7 +529,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1881226493574432524, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_Name
-      value: moeda 3
+      value: moeda_13
       objectReference: {fileID: 0}
     - target: {fileID: 1881226493574432753, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_RootOrder
@@ -593,7 +593,7 @@ GameObject:
   - component: {fileID: 1863573503}
   - component: {fileID: 1863573502}
   - component: {fileID: 1863573504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: cenario blocos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2809,7 +2809,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1881226493574432524, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_Name
-      value: modea 2
+      value: moeda_12
       objectReference: {fileID: 0}
     - target: {fileID: 1881226493574432753, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_RootOrder
