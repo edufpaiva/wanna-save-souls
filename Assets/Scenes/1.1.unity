@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 252563579}
   - component: {fileID: 252563581}
   - component: {fileID: 252563580}
+  - component: {fileID: 252563582}
   m_Layer: 0
   m_Name: redor
   m_TagString: Untagged
@@ -1427,6 +1428,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &252563582
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252563578}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1001 &270669168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1436,7 +1453,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7823952204644852948, guid: b3b066b185feccc44aec6c86fd67f161, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7823952204644852948, guid: b3b066b185feccc44aec6c86fd67f161, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1481,6 +1498,18 @@ PrefabInstance:
     - target: {fileID: 7823952204644852949, guid: b3b066b185feccc44aec6c86fd67f161, type: 3}
       propertyPath: m_SortingOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823952204644852951, guid: b3b066b185feccc44aec6c86fd67f161, type: 3}
+      propertyPath: reverse
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823952204644852951, guid: b3b066b185feccc44aec6c86fd67f161, type: 3}
+      propertyPath: initialJumpForce
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823952204644852951, guid: b3b066b185feccc44aec6c86fd67f161, type: 3}
+      propertyPath: initialMoveSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7823952204644852968, guid: b3b066b185feccc44aec6c86fd67f161, type: 3}
       propertyPath: m_Name
@@ -1570,7 +1599,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &571218626
 GameObject:
@@ -1617,7 +1646,7 @@ Transform:
   - {fileID: 252563579}
   - {fileID: 1256672330}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &855992813
 GameObject:
@@ -1787,6 +1816,7 @@ GameObject:
   - component: {fileID: 1256672330}
   - component: {fileID: 1256672332}
   - component: {fileID: 1256672331}
+  - component: {fileID: 1256672333}
   m_Layer: 3
   m_Name: blocos
   m_TagString: Untagged
@@ -2906,6 +2936,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1256672333
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256672329}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1001 &1352107295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10340,7 +10386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437792339648334692, guid: d6c2c186dc877d0449077d378cdb7293, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 437792339648334692, guid: d6c2c186dc877d0449077d378cdb7293, type: 3}
       propertyPath: m_LocalScale.x
