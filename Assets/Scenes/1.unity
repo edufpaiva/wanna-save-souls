@@ -2809,7 +2809,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1881226493574432524, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_Name
-      value: modea 2
+      value: moeda 2
       objectReference: {fileID: 0}
     - target: {fileID: 1881226493574432753, guid: c66cc7bf99f2d7d4d87423eb0dfe3e0b, type: 3}
       propertyPath: m_RootOrder
