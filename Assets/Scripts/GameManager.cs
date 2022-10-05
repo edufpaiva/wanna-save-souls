@@ -16,11 +16,16 @@ public class GameManager : MonoBehaviour
         } else {
             Destroy(gameObject);
         }
+
+        moedas.Add(0);
+
     }
 
 
     public void AddCoin(int number) {
-        moedas.Add(number);
+        if(!moedas.Contains(number)) {
+            moedas.Add(number);
+        }
     }
 
     public bool IsCoinInList(int number) {
