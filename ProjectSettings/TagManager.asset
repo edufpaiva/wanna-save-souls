@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Chao
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 
@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Player
+    uniqueID: 3991383939
+    locked: 0
+  - name: Chao
+    uniqueID: 4131194065
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
