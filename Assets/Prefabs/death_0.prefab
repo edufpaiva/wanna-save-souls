@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 437792339648334692}
   - component: {fileID: 437792339648334691}
   - component: {fileID: 437792339648334690}
+  - component: {fileID: 1082506616248291461}
   m_Layer: 0
   m_Name: death_0
   m_TagString: Untagged
@@ -184,3 +185,16 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &1082506616248291461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437792339648334689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfcf6d3d99c991047b56f13c41657403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trapNumber: 0

@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
         moedas.Add(number);
     }
 
-
+    public bool IsCoinInList(int number) {
+        return moedas.Contains(number);
+    }
 
 }
